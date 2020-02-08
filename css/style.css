@@ -8979,6 +8979,11 @@ textarea.form-control {
       justify-content: space-between;
     }
 
+    .landing-page-btn{
+      display: flex; 
+      justify-content: space-evenly;
+    }
+
     @media(max-width: 600px){
       .castle-image-view .view-items{
         display: flex;
@@ -8990,5 +8995,11 @@ textarea.form-control {
         height: 250px;
         margin: auto;
         
+      }
+
+      .landing-page-btn{
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-evenly;
       }
     }

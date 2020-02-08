@@ -9001,6 +9001,13 @@ textarea.form-control {
         display: flex; 
         flex-direction: column;
         justify-content: space-evenly;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
+      }
+    }
+
+    @media(max-width: 400px){
+      .landing-page-btn{
+        display: grid;
+        grid-template-columns: auto auto;
       }
     }
